@@ -1,0 +1,290 @@
+
+body{overflow-x: hidden;
+
+}
+
+#blueukdonar {background-color: rgb(65,105,225);
+    display:flex;justify-content: space-around;
+    }
+#toppara{color: white;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;padding-top: 10px;font-size: 20px;
+}
+.licol{display: inline;background-color: white; position: relative;top: 10px;
+
+}
+.btcolt{background-color: transparent;border: none;padding-top: 10px;
+
+}
+
+.headcol{color: black;
+
+}
+/* #prb{display: flex;justify-content: flex-end ;
+
+} */
+ /* #fixedheader{position: fixed;z-index: 10;
+
+}  */
+
+  #tab{padding-top: 180px;
+
+}  
+
+#logo{display: flex;justify-content: center;justify-content: space-around;height: 80px;background-color: rgb(245,245,245);
+
+}
+/* #logoimg{display: flex;align-self: flex-end;padding-top: 20px;
+
+} */
+
+ /* #prb{display: flex;align-self: center;align-content: space-around;
+
+}  */
+#navcolor{background-color: transparent;
+
+}
+
+/* .margin{margin-left: 100px;
+
+} */
+
+ /* #uemargin{margin-left: 80px;
+
+}  */
+
+.menuli{display: inline;color: black;text-decoration: none;
+
+}
+.menulink:hover{background-color:rgb(107, 134, 212) ;text-decoration:none;background-origin: padding-box;border-radius: 12px;
+
+}
+
+.menulink{color: black;
+
+}
+/* #imagetonews{
+
+} */
+
+#newsp{text-align: center;padding-top: 10px;
+
+}
+
+#newspara{background-color:  teal;color: white;
+
+}
+
+.marqbluen{color: blue;
+
+}
+
+.newsdate{color: rgb(193, 221, 136);
+
+}
+
+#paraone{line-height: 2em;
+
+}
+#paratwo{line-height: 2em;
+
+}
+#parathree{line-height: 2em;
+
+}
+#parafour{line-height: 2em;
+
+}
+
+#headbo{text-decoration:  rgb(34,139,34) underline;
+
+}
+
+#intro{color:rgb(65,105,225) ;
+
+}
+
+#duction{color: rgb(48, 240, 48);
+
+}
+
+#wholestats{background-color: rgb(65,105,225);
+
+}
+
+.statone{text-align: center;color: white;padding-top: 20px;
+
+}
+
+.monthly{color: rgb(48, 240, 48);
+
+}
+
+.btpad{padding-top: 60px;
+
+}
+
+#bfirst{height: 180px;width: 320px;transform: skewX(2deg);box-shadow: 5px 5px  gray;
+
+}
+
+#bt{height: 180px;width: 320px;transform: skewX(2deg);box-shadow: 5px 5px gray;
+
+}
+
+#bth{height: 180px;width: 320px;transform: skewX(2deg);box-shadow: 5px 5px gray;
+
+}
+
+#bfour{height: 180px;width: 320px;transform: skewX(2deg);box-shadow: 5px 5px gray;
+
+}
+
+#bfive{height: 180px;width: 320px;transform: skewX(2deg);box-shadow: 5px 5px gray;
+
+}
+
+#bs{height: 180px;width: 320px;transform: skewX(2deg);box-shadow: 5px 5px gray;
+
+}
+
+#whatwe{color: rgb(65,105,225);
+
+}
+
+#aredoing{color: rgb(48, 240, 48);
+
+}
+
+#wwad{text-decoration: rgb(34,139,34) underline;
+
+}
+
+.inlinehh{display: inline-flex;
+}
+
+.inlineit{display: inline-flex;
+}
+
+#mup{margin-top: 10px;
+
+}
+
+#hephouse{margin-top: 50px;
+
+}
+
+#itthar{margin-top: 50px;
+
+}
+
+#tharparkar{margin-left: -7px;background-color: rgb(236, 236, 236);width: 200px;display: inline-flex;padding-top: 20px;height: 70px;
+    
+}
+
+#housing{margin-left: -5px;background-color: rgb(236, 236, 236);width: 200px;display: inline-flex;padding-top: 20px;
+
+}
+
+.btimg{background-color: transparent;border: none;
+
+}
+
+#marqnews{margin-left: 14px;
+
+}
+
+#hepatitis{background-color: rgb(236, 236, 236);width: 300px;display: inline-flex;padding-top: 20px;
+
+}
+
+#it{background-color: rgb(236, 236, 236);width: 300px;display: inline-flex;padding-top: 20px;
+
+}
+
+#hsimg{position: relative;bottom: 5px;
+
+}
+
+#hepimg{position: relative;bottom: 10px;
+
+}
+
+#thimg{position: relative;bottom: 5px;
+
+}
+
+#itimg{position: relative;bottom: 5px;
+
+}
+
+#ue{color:rgb(65,105,225) ;text-decoration:underline green;
+
+}
+
+#mauphead{color:rgb(65,105,225);text-decoration:underline green;
+
+}
+
+#uehr{width: 400px;position: relative;right: 150px;
+
+}
+
+#muphr{width: 10%;position: relative;right: 390px;
+
+}
+
+#ig{text-align: center;padding-right: 90px;
+
+}
+
+#img{color: rgb(65,105,225);text-decoration: green underline;
+
+}
+
+#gallery{color: green;text-decoration:rgb(65,105,225)  underline;
+
+}
+
+/* #imggallery{margin-left: -20px;
+
+} */
+
+#ul{text-decoration: underline greenyellow ;
+
+}
+
+#blackbottom{color: white;padding-top: 40px;
+
+}
+
+#blackcol{background-color: black;
+
+}
+
+#adrs{color:rgb(248,248,255) ;
+
+}
+
+#useful{padding-top: 30px;
+
+}
+
+#cwu{padding-top: 90px;
+
+}
+
+#copyright{padding-top: 10px;color: white;
+
+}
+
+#bluecol{background-color:rgb(65,105,225) ;
+
+}
+
+.marqblue{color: rgb(65,105,225);
+
+}
+
+#three-d-buttons{background-color: rgb(245,245,245);
+
+}
