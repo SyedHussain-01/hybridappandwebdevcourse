@@ -1,11 +1,12 @@
-
-body{overflow-x: hidden;
-
+ .incol {text-decoration:none ;color: white;
+} 
+.incol:hover {color: cornsilk;background-color: rgb(11, 55, 73);
 }
-
-#blueukdonar {background-color: rgb(65,105,225);
+.incol:active{color: rgb(65,105,225);
+}
+/* #blueukdonar {
     display:flex;justify-content: space-around;
-    }
+    } */
 #toppara{color: white;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;padding-top: 10px;font-size: 20px;
 }
@@ -44,13 +45,13 @@ body{overflow-x: hidden;
 
 }
 
-/* .margin{margin-left: 100px;
+.margin{margin-left: 100px;
 
-} */
+}
 
- /* #uemargin{margin-left: 80px;
+ #uemargin{margin-left: 80px;
 
-}  */
+} 
 
 .menuli{display: inline;color: black;text-decoration: none;
 
@@ -95,6 +96,14 @@ body{overflow-x: hidden;
 
 }
 
+.topbutton{background-color: transparent;height: 60px;width: 60px;border: transparent;
+
+}
+
+.topbutton:hover{background-color:blue;
+
+}
+
 #headbo{text-decoration:  rgb(34,139,34) underline;
 
 }
@@ -123,27 +132,27 @@ body{overflow-x: hidden;
 
 }
 
-#bfirst{height: 180px;width: 320px;transform: skewX(2deg);box-shadow: 5px 5px  gray;
+#bfirst{height: 180px;width: 280px;transform: skewX(2deg);box-shadow: 5px 5px  gray;
 
 }
 
-#bt{height: 180px;width: 320px;transform: skewX(2deg);box-shadow: 5px 5px gray;
+#bt{height: 180px;width: 280px;transform: skewX(2deg);box-shadow: 5px 5px gray;
 
 }
 
-#bth{height: 180px;width: 320px;transform: skewX(2deg);box-shadow: 5px 5px gray;
+#bth{height: 180px;width: 280px;transform: skewX(2deg);box-shadow: 5px 5px gray;
 
 }
 
-#bfour{height: 180px;width: 320px;transform: skewX(2deg);box-shadow: 5px 5px gray;
+#bfour{height: 180px;width: 280px;transform: skewX(2deg);box-shadow: 5px 5px gray;
 
 }
 
-#bfive{height: 180px;width: 320px;transform: skewX(2deg);box-shadow: 5px 5px gray;
+#bfive{height: 180px;width: 280px;transform: skewX(2deg);box-shadow: 5px 5px gray;
 
 }
 
-#bs{height: 180px;width: 320px;transform: skewX(2deg);box-shadow: 5px 5px gray;
+#bs{height: 180px;width: 280px;transform: skewX(2deg);box-shadow: 5px 5px gray;
 
 }
 
@@ -159,29 +168,29 @@ body{overflow-x: hidden;
 
 }
 
-.inlinehh{display: inline-flex;
+/* .inlinehh{display: inline-flex;
 }
 
 .inlineit{display: inline-flex;
-}
+} */
 
-#mup{margin-top: 10px;
+/* #mup{margin-top: 10px;
 
 }
 
 #hephouse{margin-top: 50px;
 
-}
+} */
 
-#itthar{margin-top: 50px;
+/* #itthar{margin-top: 50px;
 
-}
+} */
 
-#tharparkar{margin-left: -7px;background-color: rgb(236, 236, 236);width: 200px;display: inline-flex;padding-top: 20px;height: 70px;
+#tharparkar{background-color: rgb(236, 236, 236);width: 250px;display: inline-flex;padding-top: 20px;
     
 }
 
-#housing{margin-left: -5px;background-color: rgb(236, 236, 236);width: 200px;display: inline-flex;padding-top: 20px;
+#housing{background-color: rgb(236, 236, 236);width: 250px;display: inline-flex;padding-top: 20px;
 
 }
 
@@ -189,15 +198,15 @@ body{overflow-x: hidden;
 
 }
 
-#marqnews{margin-left: 14px;
+/* #marqnews{margin-left: 14px;
+
+} */
+
+#hepatitis{background-color: rgb(236, 236, 236);width: 250px;display: inline-flex;padding-top: 20px;
 
 }
 
-#hepatitis{background-color: rgb(236, 236, 236);width: 300px;display: inline-flex;padding-top: 20px;
-
-}
-
-#it{background-color: rgb(236, 236, 236);width: 300px;display: inline-flex;padding-top: 20px;
+#it{background-color: rgb(236, 236, 236);width: 250px;display: inline-flex;padding-top: 20px;
 
 }
 
@@ -225,7 +234,7 @@ body{overflow-x: hidden;
 
 }
 
-#uehr{width: 400px;position: relative;right: 150px;
+/* #uehr{width: 400px;position: relative;right: 150px;
 
 }
 
@@ -235,7 +244,7 @@ body{overflow-x: hidden;
 
 #ig{text-align: center;padding-right: 90px;
 
-}
+} */
 
 #img{color: rgb(65,105,225);text-decoration: green underline;
 
@@ -269,7 +278,7 @@ body{overflow-x: hidden;
 
 }
 
-#cwu{padding-top: 90px;
+#cwu{padding-top: 30px;
 
 }
 
