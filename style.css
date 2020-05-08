@@ -1,269 +1,48 @@
+/* index.html */
 body{background-image: url(background\ image.jpg) ;background-repeat: no-repeat;background-size: cover ;
 }
-/*index.html*/
-.lab {width: 180px;;
+.row1{background-color: rgb(224,255,255);border: 1px transparent;
+
 }
-.index {width: 150px;
+.row2{border: 2px solid black ;background-color: rgb(224,255,255);
+
 }
-#home {margin-top: 40px;background-color: rgb(147,112,219);width: 660px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: rgb(0, 0, 0);
-font-size: larger;  }
-.lab {color: #000000;margin-right: 60px;
-} 
-#homeheading {border:3px solid;width: 700px;text-align: center;background-color: rgb(224,255,255);
-} 
-#profilei {background-color: black;width: 300px;margin-right: 4px;
-} 
-#subheading{background-color: black;color: blanchedalmond;width: 450px;
-}
-.link {text-decoration:none;color: rgb(25,25,112);
-}
-.link:hover {color: cyan;
-}
-.link:active {color: darkblue;
+.row3{border: 2px solid;background-color: rgb(224,255,255) ;
+
 }
 .incol {color: white;text-decoration:none ;
 }
-.incol:hover {color: rgb(32,178,170);
+.incol:hover {color: white;background-color: rgb(65,105,225) ;
 }
 .incol:active{color: rgb(65,105,225);
 }
-sup {color: rgb(255,0,0);
-}
-#borderin {border:3px solid;width: 300px;text-align: center;background-color: rgb(224,255,255);margin-top: -10px;
-}
-#prn{background-color:  rgb(224,255,255);
-
-}
-/*form.html*/
-#form {margin-top: -250px;
-}
-#heading {padding-left:350px ;padding-right:350px
-}
-.labf {width: 180px;;
-} 
-.form {width: 150px;
-} 
-th{text-align: left;
-} 
-#button {align-items: flex-start;padding-left: 250px;
-} 
-input::placeholder {color: black;text-align: center;
-} 
-#table {width: 1000px;color: white ;background-color: #6D64CD;
-}
-.padding {padding-left: 10px;font-style: oblique;
-} 
-input{border-radius: 6px;
-} 
-textarea::placeholder{text-align: center;color: black;
-padding-top: 25px;
-}
-#profilef{background-color:black ;width: 240px;
-}
-.formb{color:white ;
-}
-.inputf{cursor: pointer;
-}
-.inputf:focus{background-color: wheat;
-}
-.formb:hover{color:rgb(32,178,170) ;
-}
-.formb:active{color: rgb(65,105,225);
-}
-.btform{background-color: wheat;border-radius: 12px;width: 70px;cursor: pointer;
-}
-.btform:hover{background-color: rgb(255,250,205);
-}
-.btform:active{background-color: rgb(222,184,135);
-}
-.inputz{cursor: pointer;height: 25px;
-}
-.inputz:hover{background-color: wheat;
-}
-/*submission.html*/
-#thanks {padding-top: 130px;
-}
-#ty {color: rgb(17, 68, 17);
-} 
-#statement{color: purple;
-}
-#profile{background-color: blanchedalmond;width: 300px;margin-right: 4px;
-} 
-/*profile*/
-#im {margin-bottom: 20px;
-} 
-#profilep{background-color: black;width: 300px;margin-right: 4px;
-}
-.prcol{color: white;text-decoration: none;
-}
-.prcol:hover {color: rgb(32,178,170);
-}
-.prcol:active{color: rgb(65,105,225);
-
-}
-#border{border:3px solid;width: 700px;text-align: center;background-color: rgb(224,255,255);
-}
-#border2{border:3px solid;width: 300px;text-align: center;background-color: rgb(224,255,255);margin-top: -30px;
-}
-#prb{border:1px solid; background-color: white;width: 300px;
-}
-/*contact.html*/
-#profile{background-color: blanchedalmond;width: 300px;margin-right: 4px;
-}
-#pr {margin-bottom: 50px;
-} 
-#con{margin-top: 150px;background-color: white;width: 300px;border: 3px solid;
-}
-#conh{border:3px solid;width: 700px;text-align: center;background-color: rgb(224,255,255);
-}
-#conb{border:3px solid;width: 300px;height:70px ;;text-align: center;background-color: rgb(224,255,255);margin-top: -30px;
-}
-.conc{color: white;text-decoration: none;
-}
-.conc:hover {color: rgb(32,178,170);
-}
-.conc:active{color: rgb(65,105,225);
-}
-#profilec{background-color: black;width: 300px;margin-right: 4px;
-}
-
-
-/* td{width: 150px;
-}  */
-/*form.html index.html */
-
-/* label{width: 180px;;
-} */
- /*form.html index.html*/
-
- /* body{background-color: rgb(67, 107, 167);
-    } */
-     /* All */
-
-/* #profile{background-color: blanchedalmond;width: 300px;margin-right: 4px;
-    }  */
-    /*index.html form.html profile.html contact.html submission.html  */
-
-/* #pr {margin-bottom: 50px;
-}  */
-/*profile.html contact.html*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /* #form {margin-top: -250px;
-}  */
-/*form.html*/
-/* #heading {padding-left:350px ;padding-right:350px
-} */
-/*form.html*/
-/* th{text-align: left;
-} */
- /*form.html*/
-/* #button {align-items: flex-start;padding-left: 250px;
-} */
- /*form.html*/
-/* input::placeholder {color: black;text-align: center;
-}  */
-/*form.html*/
-/* #table {width: 1000px;color: white ;background-color: #6D64CD;
-} */
-/*form.html*/
-/* .padding {padding-left: 10px;font-style: oblique;
-} */
- /*form.html*/
-/* input{border-radius: 6px;
-} */
- /*form.html*/
-/* textarea::placeholder{text-align: center;color: black;
-padding-top: 25px;
-} */
- /*form.html*/
-/* #thanks {padding-top: 130px;
-} */
-/*submission.html*/
-/* #ty {color: rgb(17, 68, 17);
-}  */
-/*submission.html*/
-/* #statement{color: purple;
-}  */
-/*submission.html*/
-
-/* #home {margin-top: 40px;background-color: azure;width: 660px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: rgb(0, 0, 0);
-    font-size: larger;  } */
-     /*index.html*/ 
-    /* td>label {color: #000000;margin-right: 60px;
-    } */
-     /*index.html*/
-    /* #homeheading {background-color: black;color: blanchedalmond;width: 750px;
-    }  */
-    /*index.html*/
+.head1col{color: rgb(250,240,230);
     
-    /* #subheading{background-color: black;color: blanchedalmond;width: 450px;
-    }  */
-    /*index.html*/
-    /* #im {margin-bottom: 20px;
-    }  */
-    /*profile*/
+}
+.row4{background-color: rgb(147,112,219)
 
-/* #con{margin-top: 150px;background-color: white;width: 300px;
-} */
-/*contact.html */
- 
+}
+.txtsize{font-size: 25px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;text-decoration: none;color:black;
 
-/*index.html:-ids=profile homeheading subheading home / class = none */
-/*form.html:-ids=profile heading form table button {address(n)} / class = padding */
-/*profile.html:-ids=profile pr im / class = none */ 
-/*contact.html:-ids=profile pr con / class = none*/
-/*submission.html:-ids=thanks ty statement {goback(n)} / class = none */
-/*periodictable.html:-ids=none / class = none*/
+}
+sup {color: rgb(255,0,0);font-size: 20px;
+}
+.headcol{background-color: rgb(72,61,139);
+
+}
+.concol{background-color: rgb(230,230,250);
+
+}
+.round{border-radius: 100px;
+}
+/* index.html */
+/* profile.html */
+.bottomcol{background-color: black;color: white;margin-top: 90px;
+
+}
+/* profile.html */
+/* contact.html */
+.tablecol{background-color: rgb(72,61,139);
+
+}
+
