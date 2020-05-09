@@ -5,24 +5,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saylani Registration Form</title>
-    <link href="stylesheet.css" rel="stylesheet">
+    <link rel="stylesheet" href="Saylani website assignment/bootstrap-4.4.1-dist/css/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">   
 </head>
 
 <body>
-    <center>
-    <p id="profilef"><a href="index.html" class="formb">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="profile.html" class="formb">PROFILE</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="contact.html" class="formb">ABOUT</a></p>
     
-        <div id="heading">
-            <img src="saylani.png" alt="Saylani logo">
-
-            <h1><u>STUDENT REGISTRATION FORM</u></h1>
+         <div class="container-fluid mt-4">
+    <div class="container ">
+        <ul class="nav nav-pills nav-fill bg-dark" >
+        <li class="nav-item">
+            <a href="profile.html" class="nav-link incol">PROFILE</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link  incol" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link  incol" href="contact.html">ABOUT</a>
+        </li>
+    
+        </ul>
+        
         </div>
-    </center>
-    <center>
-        <div id="form">
+
+
+        </div>
+        <div id="heading" class="container mt-5">
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+                    
+            <img src="saylani.png" alt="Saylani logo" class="img-fluid">
+        <div class="col-sm-4"></div>
+        </div>
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1 class="mt-2 text-center"><u>STUDENT REGISTRATION FORM</u></h1>
+        </div>
+    </div>
+</div>
+    
+    
+        <div id="form" class="container ">
+            <div class="row">
+                <div class="col-sm-12">
             <form action="submission.html" method="GET">
 
-                <table id="table">
+                <table id="table" class="table table-borderless table-responsive">
+                    <tr></tr>
+                    <tr></tr>
                     <tr></tr>
                     <tr></tr>
                     <tr></tr>
@@ -31,6 +65,7 @@
                     <tr></tr>
                     <tr></tr>
                     <tr>
+                        
                         <th class="padding"><label for="username" class="labf">FIRST NAME<sup>&#9733;</sup></label></th>
                         <td class="form"> <input type="text" name="username" placeholder="&#128219; Enter First Name" maxlength="30" required class="inputf">
                             <small>&nbsp;&nbsp;&nbsp;&nbsp; (max 30 characters a-z and A-Z)</small></td>
@@ -230,7 +265,7 @@
 
                     <tr>
                         <th class="padding"><label for="mobile number" class="labf">MOBILE NUMBER<sup>&#9733;</sup></label></th>
-                        <td class="form"> <input class="inputf" type="number" placeholder="&#128241; Enter Mobile Number" name="mobile number" maxlength="11"
+                        <td class="form"> <input class="inputf" type="number" placeholder="&#128241;Enter Mobile Number" name="mobile number" maxlength="11" 
                                 required> <small>&nbsp;&nbsp;&nbsp;&nbsp; (11 digit number)</small></td>
                     </tr>
                     <tr></tr>
@@ -317,7 +352,7 @@
                                     <td class="form">2</td>
                                     <td class="form"> Class XII<sup>&#9733;</sup> </td>
                                     <td class="form"><input class="inputf" type="text" name="board12" maxlength="10" required></td>
-                                    <td class="form"><input class="inputf" type="number" name="percentage12" required></td>
+                                    <td class="form"><input class="inputf" type="tel" name="percentage12" required></td>
                                     <td class="form"><input class="inputf" type="month" name="year of passing12" required></td>
 
 
@@ -327,14 +362,14 @@
                                     <td class="form">3</td>
                                     <td class="form"> Graduation </td>
                                     <td class="form"><input class="inputf" type="text" name="boardg" maxlength="10"></td>
-                                    <td class="form"><input class="inputf" type="number" name="percentageg"></td>
+                                    <td class="form"><input class="inputf" type="tel" name="percentageg"></td>
                                     <td class="form"><input class="inputf" type="month" name="year of passingg"></td>
                                 </tr>
                                 <tr>
                                     <td class="form">4</td>
                                     <td class="form"> Masters </td>
                                     <td class="form"><input class="inputf" type="text" name="boardm" maxlength="10"> </td>
-                                    <td class="form"><input class="inputf" type="number" name="percentagem"></td>
+                                    <td class="form"><input class="inputf" type="tel" name="percentagem"></td>
                                     <td class="form"><input class="inputf" type="month" name="year of passingm"></td>
                                 </tr>
                                 <tr>
@@ -385,8 +420,10 @@
 
             </table>
         </div>
-    </center>
-
+        </div>
+        </div>
+    
+<br><br>
 </body>
 
 </html>

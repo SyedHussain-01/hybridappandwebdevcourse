@@ -4,18 +4,22 @@ body{background-image: url(background\ image.jpg) ;background-repeat: no-repeat;
 .row1{background-color: rgb(224,255,255);border: 1px transparent;
 
 }
+#ul{text-decoration:underline green;
+
+}
+
 .row2{border: 2px solid black ;background-color: rgb(224,255,255);
 
 }
 .row3{border: 2px solid;background-color: rgb(224,255,255) ;
 
 }
-.incol {color: white;text-decoration:none ;
+ .incol {color: white;text-decoration:none ;
 }
 .incol:hover {color: white;background-color: rgb(65,105,225) ;
 }
 .incol:active{color: rgb(65,105,225);
-}
+} 
 .head1col{color: rgb(250,240,230);
     
 }
@@ -45,4 +49,50 @@ sup {color: rgb(255,0,0);font-size: 20px;
 .tablecol{background-color: rgb(72,61,139);
 
 }
+/*form.html*/
 
+
+#form{margin-top: -190px;
+}
+.labf {width: 180px;;
+} 
+.form {width: 150px;
+} 
+th{text-align: left;
+} 
+#button {align-items: flex-start;padding-left: 250px;
+} 
+input::placeholder {color: black;text-align: center;
+} 
+#table {/*width: 1000px;*/color: white ;background-color: #6D64CD;
+}
+.padding {padding-left: 10px;font-style: oblique;
+} 
+input{border-radius: 6px;
+} 
+textarea::placeholder{text-align: center;color: black;
+padding-top: 25px;
+}
+#profilef{background-color:black ;width: 240px;
+}
+.formb{color:white ;
+}
+.inputf{cursor: pointer;
+}
+.inputf:focus{background-color: wheat;
+}
+.formb:hover{color:rgb(32,178,170) ;
+}
+.formb:active{color: rgb(65,105,225);
+}
+.btform{background-color: wheat;border-radius: 12px;width: 70px;cursor: pointer;
+}
+.btform:hover{background-color: rgb(255,250,205);
+}
+.btform:active{background-color: rgb(222,184,135);
+}
+.inputz{cursor: pointer;height: 25px;
+}
+.inputz:hover{background-color: wheat;
+}
+/* form.html */
