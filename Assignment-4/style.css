@@ -1,0 +1,136 @@
+.backgroundhome{background-image: url('dark\ background.jpg');
+
+}
+/* .backimg {background-image: url('view-decoration-with-delicious-food-copy-space_23-2148308898.jpg');background-repeat: no-repeat;background-size: cover ; 
+height: 380px;background-position: center;
+} */
+.buttonmenu{margin-top: 50px;width: 100px;height: 50px;box-shadow: 3px 3px 15px gray;
+
+}
+.buttonmenu:hover{background-color: white;
+
+}
+.btncol{color: rgb(230, 68, 68);
+
+}
+.btncol:hover{color:black;
+
+}
+.hover:hover{background-color:red ;color: black ; 
+
+}
+.licol{text-decoration: black;
+
+}
+
+.tparapad{margin-top: 120px;font-family: Georgia, 'Times New Roman', Times, serif;color: rgb(66, 5, 5);
+
+}
+
+ .hcapcol{text-decoration:wheat underline;
+
+} 
+.inline{display:inline-flex
+
+}
+.bottomcol{background-color: black;color: white;
+
+}
+.pad{padding-top: 40px;
+
+}
+.logo{padding-top: 15px;padding-bottom: 15px;
+
+}
+.logoh{padding-top: 30px;
+
+}
+.logos{padding-top: 25px;
+
+}
+.navcol{color:black;
+
+} 
+.bordernav{background-color: chocolate;
+
+}
+/* .stickmenu{position: fixed;left: 0px;
+
+} */
+.rscol{color: cornflowerblue;padding-left: 20px;font-weight: bold;
+
+}
+.rscolf{padding-left: 20px;font-weight: bold;color: blue;
+
+}
+.bbqpad{padding-top: 200px;
+
+}
+.ffpad{padding-top: 170px;
+
+}
+/* .navheight{height: 800px;
+
+} */
+.bevpad{padding-top: 100px;
+
+}
+.backgroundroll{background-image: url('perfect-mexican-burritos_23-2147640317.jpg');background-repeat: no-repeat;background-size: cover 
+    /*color: rgb(196, 220, 233)*/;font-weight: bold;color: black;background-position: center;background-attachment: fixed;
+
+}
+.backgroungburger{background-image: url('fresh-tasty-burger-wooden-table-with-black-background_130884-8.jpg');background-repeat: no-repeat;background-size: cover;
+font-weight: bold;color: black;background-position: center;background-attachment: fixed;
+}
+.backgroundbbq{background-image: url('bbqpic.jpg');background-repeat: no-repeat;background-size: cover;font-weight: bold;
+    color: black;background-position: center;background-attachment: fixed;
+}
+.backgroundff{background-image: url('frenchfriespic.jpg');background-repeat: no-repeat;background-size: cover;
+    color: black;font-weight: bold;background-position: center;background-attachment: fixed;
+
+}
+.backgroundsandwich{background-image: url('sandwich_1339-2330.jpg');background-size: cover;background-repeat: no-repeat;
+    color: black;font-weight: bold;background-position: center;background-attachment: fixed;
+
+}
+.backgroundbev{background-image: url('beveragespic.jpg');background-repeat: no-repeat;background-size: cover;
+    color: black;font-weight: bold;background-position: center;background-attachment: fixed;
+
+}
+.backgroundmenubar{background-image: url('white\ background.jpg');background-repeat: no-repeat;background-size: cover;
+    color: black;font-weight: bold;background-position: center;background-attachment: fixed;
+
+}
+.aboutcol{background-color: wheat;color: black;
+
+}
+#paraone{line-height: 2em;font-style: oblique;
+
+}
+#paratwo{line-height: 2em;font-style: oblique;
+
+}
+#parathree{line-height: 2em;font-style: oblique;
+
+}
+#parafour{line-height: 2em;font-style: oblique;
+
+}
+#abouthead{text-decoration: underline rgb(205,92,92);
+
+}
+.adddesign{width: 480px;font-style: oblique;
+
+}
+.addmargin{margin-top: 100px;
+
+}
+.menuhead{color: black;
+
+}
+.tablecol{color: cornsilk;
+
+}
+.facol{color:darksalmon;
+
+}
