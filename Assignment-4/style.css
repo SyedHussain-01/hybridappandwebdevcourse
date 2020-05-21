@@ -134,3 +134,10 @@ font-weight: bold;color: black;background-position: center;background-attachment
 .facol{color:darksalmon;
 
 }
+@media screen and (min-width:1024px){
+    .sticky-top{position:-webkit-sticky;position:sticky;top:0;z-index:1020}
+}
+@media screen and (max-width:1024px){.sticky-top{position: static;
+
+}
+}

@@ -297,3 +297,10 @@
 #three-d-buttons{background-color: rgb(245,245,245);
 
 }
+@media screen and (min-width:1024px){
+  .sticky-top{position:-webkit-sticky;position:sticky;top:0;z-index:1020}
+}
+@media screen and (max-width:1024px){.sticky-top{position: static;
+
+}
+}
