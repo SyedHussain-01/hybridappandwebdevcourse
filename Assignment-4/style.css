@@ -27,7 +27,7 @@ height: 380px;background-position: center;
 
 }
 
- .hcapcol{text-decoration:wheat underline;
+ .hcapcol{/*text-decoration:wheat underline;color: rgb(255,218,185);*/background-image: linear-gradient(rgb(255,218,185), rgb(230, 68, 68));
 
 } 
 .inline{display:inline-flex
@@ -101,7 +101,7 @@ font-weight: bold;color: black;background-position: center;background-attachment
     color: black;font-weight: bold;background-position: center;background-attachment: fixed;
 
 }
-.aboutcol{background-color: wheat;color: black;
+.aboutcol{background-image: linear-gradient(rgb(250,128,114),rgb(236, 62, 97));color: black;
 
 }
 #paraone{line-height: 2em;font-style: oblique;
@@ -116,10 +116,10 @@ font-weight: bold;color: black;background-position: center;background-attachment
 #parafour{line-height: 2em;font-style: oblique;
 
 }
-#abouthead{text-decoration: underline rgb(205,92,92);
+/* #abouthead{text-decoration: underline rgb(205,92,92);
 
-}
-.adddesign{width: 480px;font-style: oblique;
+} */
+.adddesign{width: 480px;font-style: oblique;background-image: linear-gradient(rgb(250,128,114),rgb(236, 62, 97));
 
 }
 .addmargin{margin-top: 100px;
@@ -128,7 +128,7 @@ font-weight: bold;color: black;background-position: center;background-attachment
 .menuhead{color: black;
 
 }
-.tablecol{color: cornsilk;
+.tablecol{color: black;
 
 }
 .facol{color:darksalmon;
