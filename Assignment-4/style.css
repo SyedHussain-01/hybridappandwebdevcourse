@@ -29,7 +29,15 @@ height: 380px;background-position: center;
 
  .hcapcol{/*text-decoration:wheat underline;color: rgb(255,218,185);*/background-image: linear-gradient(rgb(255,218,185), rgb(230, 68, 68));
 
-} 
+}
+.menubgcol{background-image: linear-gradient(rgb(255,218,185), rgb(230, 68, 68));color: black;padding: 15px;
+
+}
+.menubgcolm{background-image: linear-gradient(rgb(255,160,122),rgb(165,42,42));color: black;padding: 15px;
+
+}
+.sticky-topm{position:-webkit-sticky;position:sticky;top:0;z-index:1020}
+ 
 .inline{display:inline-flex
 
 }
@@ -101,7 +109,7 @@ font-weight: bold;color: black;background-position: center;background-attachment
     color: black;font-weight: bold;background-position: center;background-attachment: fixed;
 
 }
-.aboutcol{background-image: linear-gradient(rgb(250,128,114),rgb(236, 62, 97));color: black;
+.aboutcol{background-image: linear-gradient(rgb(233,150,122),rgb(205,92,92));color: black;
 
 }
 #paraone{line-height: 2em;font-style: oblique;
@@ -134,6 +142,14 @@ font-weight: bold;color: black;background-position: center;background-attachment
 .facol{color:darksalmon;
 
 }
+ .copycol{background-color: brown;color: black;
+
+}
+/*
+.topcol{background-color: rgb(220,20,60);
+
+
+} */
 @media screen and (min-width:1024px){
     .sticky-top{position:-webkit-sticky;position:sticky;top:0;z-index:1020}
 }
