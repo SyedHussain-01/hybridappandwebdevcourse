@@ -12,51 +12,27 @@
 </head>
 
 <body class="btncol">
+<div class="container center mt-5">
 
-    <div class="container-fluid mt-4">
-        <div class="container">
-            <ul class="nav nav-pills nav-fill bg-dark" style="height: 40px;">
-                <li class="nav-item">
-                    <a class="nav-link  incol p-1" href="../profile.html">PROFILE</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link  incol p-1" href="../index.html">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link  incol p-1" href="../contact.html">ABOUT</a>
-                </li>
+<h1 id="heading">&nbsp;SIMPLE CALCULATOR&nbsp;</h1>
 
-            </ul>
+</div>
 
-        </div>
-    </div>
 
-    <div class="container center mt-4">
-        <h1 id="heading">&nbsp;SIMPLE CALCULATOR&nbsp;</h1>
-    </div>
-
-    <div class="container mt-4 body">
+    <div class="container mt-5 body">
         <br>
         <div class="row">
             <div class="col-12 center btn">
                 <input type="text" id="answer" class="input" placeholder="   0">
             </div>
         </div>
-
-
-        <div class="container mt-3 ">
-            <div class="row">
-                <div class="col-12 d-flex justify-content-center ">
-
-                    <h5 id="heading" class="p-1">Developed By<br>&nbsp;SYED HUSSAIN ABBAS&nbsp;<br></h5>
-                </div>
-            </div>
-        </div>
-
-
+        <br>
+        <br>
         <div class="row">
             <div class="col-12 btn ">
-                <button class=" btncol text-light" style="width: 40%;" onclick="empty()">C</button>
+                <button class=" btncol text-light" style="width: 20%;" onclick="empty()">C</button>
+                
+                <button class=" btncol text-light" style="width: 20%;" onclick="clearFunction()">clear</button>                
             </div>
         </div>
         <div class="row">
@@ -96,10 +72,10 @@
             <div class="col-12 btn">
                 <button class=" btncol text-light" style="width: 25%;" onclick="getValue('0')">0</button>
 
-
+                
                 <button class=" btncol text-light" style="width: 42%;" onclick="getAnswer()" type="submit">=</button>
                 <button class=" btncol text-light" style="width: 9%;" onclick="getValue('.')">.</button>
-
+                
                 <button class=" btncol text-light" style="width: 20%;" onclick="getValue('/')">/</button>
             </div>
         </div>
@@ -107,7 +83,6 @@
         <br>
 
     </div>
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -122,5 +97,4 @@
         crossorigin="anonymous"></script>
 </body>
 <script src="app.js"></script>
-
 </html>
