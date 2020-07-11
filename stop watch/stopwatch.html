@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+</head>
+<body class="bodycoldef" id="bodycol">
+
+    <div class="container-fluid pt-3" id="heading">
+        <div class="container ">
+
+            <div class="row">
+                <div class="col-md-12  ">
+                    <nav class="navbar navbar-dark nav-justified nav-pills navbar-expand-md ">
+
+                        <button type="button" class="navbar-toggler " data-toggle="collapse" data-target=".menu">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="navbar-brand ">
+                            <h1 class="text-light">STOP WATCH</h1>
+                        </div>
+
+
+                        <div class="collapse navbar-collapse menu">
+
+
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item "><a href="javascript:void(0);" class=" nav-link "
+                                        style="color: white;font-weight: bold;display: flex;justify-content: space-between;"
+                                        onclick="theme('radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,107,141,1) 0%, rgba(0,69,91,1) 90% )')">Blue
+                                    </a> </li>
+                                <li class="nav-item "><a href="javascript:void(0);" class=" nav-link "
+                                        style="color: white;font-weight: bold;display: flex;justify-content: space-between;"
+                                        onclick="theme('radial-gradient( circle farthest-corner at 50.3% 44.5%,  rgba(116,147,179,1) 0%, rgba(62,83,104,1) 100.2% )')">Dark
+                                    </a> </li>
+                                <li class="nav-item "><a href="javascript:void(0);" class=" nav-link "
+                                        style="color: white;font-weight: bold;display: flex;justify-content: space-between;"
+                                        onclick="theme('linear-gradient( 109.5deg,  rgba(76,221,242,1) 11.2%, rgba(92,121,255,1) 91.1% )')">SeaBlue
+                                    </a></li>
+                                <li class="nav-item "> <a href="javascript:void(0);" class=" nav-link "
+                                        style="color: white;font-weight: bold;display: flex;justify-content: space-between;"
+                                        onclick="theme('radial-gradient( circle 993px at 0.5% 50.5%,  rgba(137,171,245,0.37) 0%, rgba(245,247,252,1) 100.2% )')">Light
+                                    </a></li>
+                                <li class="nav-item "> <a href="javascript:void(0);" class=" nav-link "
+                                        style="color: white;font-weight: bold;display: flex;justify-content: space-between;"
+                                        onclick="theme('radial-gradient( circle 997px at 99.9% 96.8%,  rgba(132,255,199,1) 0%, rgba(137,248,255,1) 90% )')">SeaGreen
+                                    </a></li>
+                                <li class="nav-item "> <a href="javascript:void(0);" class=" nav-link "
+                                        style="color: white;font-weight: bold;display: flex;justify-content: space-between;"
+                                        onclick="theme('linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% )')">Purple</a>
+                                </li>
+                                <li class="nav-item "> <a href="javascript:void(0);" class=" nav-link "
+                                        style="color: white;font-weight: bold;display: flex;justify-content: space-between;"
+                                        onclick="theme('linear-gradient( 181deg,  rgba(2,0,97,1) 15%, rgba(97,149,219,1) 158.5% )')">DarkBlue</a>
+                                </li>
+                                <li class="nav-item "> <a href="javascript:void(0);" class=" nav-link "
+                                        style="color: white;font-weight: bold;display: flex;justify-content: space-between;"
+                                        onclick="theme('linear-gradient( 181.3deg,  rgba(134,15,15,1) 24.9%, rgba(183,10,10,1) 46.9%, rgba(210,70,0,1) 85.1% )')">Maroon</a>
+                                </li>
+                            </ul>
+
+
+                        </div>
+
+
+
+                    </nav>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container center">
+
+        <div class="circle" id="circled">
+            <div class="mr-4">
+                <div class="container mx-4">
+
+                    <textarea name="" id="min" class="w-25 height-style ">M</textarea>
+                    <textarea name="" id="sec" class="w-25 height-style ">S</textarea>
+                    <textarea name="" id="msec" class="w-25 height-style ">Ms</textarea>
+
+
+                </div>
+
+                <div class="container mt-5 center ">
+
+                    <button class="height-styleb mx-3 " onclick="start()" id="strt">Start</button>
+                    <button class="height-styleb mx-5 px-1" onclick="stopp()">Pause</button>
+                    <button class="height-styleb mx-3" onclick="reset()">Reset</button>
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+    <script src="app.js"></script>
+</html>

@@ -1,0 +1,57 @@
+body{
+    overflow-x: hidden;
+}
+
+.circle {
+    height: 550px;
+    width: 550px;
+    background-color: black;
+    border-radius: 550%;
+    margin-top: 80px;
+    border-color: white;
+    border-style: ridge;
+    padding-top: 215px;
+    padding-bottom: 215px;
+    padding-right:95px ;
+    padding-left:115px ;
+    
+    
+}
+
+.height-style{
+    height: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-size: larger;
+}
+
+.height-styleb{
+    height: 30px;
+    width: 52px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    border-color: white;
+    
+}
+
+ .bodycoldef{
+     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,107,141,1) 0%, rgba(0,69,91,1) 90% ); 
+     
+}
+ 
+.center{
+    display: flex;
+    justify-content: center;
+}  
+
+#heading{
+    text-align: center;
+    
+   
+    background-color: black;
+    color: white;
+}
+
