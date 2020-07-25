@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bodycol">
+    <div class=" navbar navbar-nav black pt-4">
+        <h1 class="header mt-2 "><span class="headcol">&nbsp;&nbsp; TO-DO LIST &nbsp;&nbsp;</span></h1>
+    </div>
+    <div class="container-fluid mt-5 ">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-sm-6 headercontainer pt-3">
+                    <button onclick="delall()" class="buttonhead btn-grad px-2" title="Click to Delete All">Delete All</button>
+                    <input type="text" id="searchint" class="searchintwidth" maxlength="40" placeholder=" Task TO-DO">
+                    <input type="text" id="dateint" class="searchintwidth" placeholder=" July 21, 1983 13:25:00">
+                    <button onclick="todotasks()" class="buttonhead btn-transparent px-3" title="Click to Add Task" >➕</button>
+                    <div class="d-flex justify-content-center">
+                        <table class="mt-3 table table-responsive table-secondary " id="tasks">
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
