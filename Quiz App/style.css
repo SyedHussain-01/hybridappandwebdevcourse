@@ -1,0 +1,26 @@
+.background{
+    background-image: url(quiz\ background\ image.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.block{display: block;
+
+}
+.margincontentbox{
+    margin-top: 150px;
+}
+.paddingcontent{
+    padding: 30px;
+    font-size: larger;
+    font-weight: bold;
+    font-style: oblique;
+}
+.paddingcontentheading{
+    padding: 40px;
+    font-size: 35px;
+    color: white;
+    
+}
+.visiblehidden{
+    visibility: hidden;
+}
